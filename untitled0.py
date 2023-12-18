@@ -4,29 +4,6 @@ import numpy as np
 zero=np.zeros(10)
 print(zero)
 
-
-#Create an array of 10 fives
-five=np.ones(10)
-print(five*5)
-
-#Create an array of the integers from 10 to 50
-integers=np.arange(10,51)
-print(integers)
-
-#Create an array of all the even integers from 10 to 50
-even=[num for num in range(10,51) if num %2==0]
-print(even)
-
-#Create a 3x3 matrix with values ranging from 0 to 8
-my_matrix = np.arange(9).reshape((3, 3))
-print(my_matrix)
-
-#Create a 3x3 identity matrix
-identity_matrix = np.eye(3)
-print(identity_matrix)
-
-#Use NumPy to generate a random number between 0 and 1
-rand0=np.random.rand()
 print(rand0)
 
 #Use NumPy to generate an array of 25 random numbers sampled from a standard normal distribution
