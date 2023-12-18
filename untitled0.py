@@ -4,9 +4,6 @@ import numpy as np
 zero=np.zeros(10)
 print(zero)
 
-#Create an array of 10 ones
-one=np.ones(10)
-print(one)
 
 #Create an array of 10 fives
 five=np.ones(10)
